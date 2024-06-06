@@ -10,7 +10,6 @@ function App() {
     <div>
       <Header />
       <main>
-        <h1>hello commiting to check if its working</h1>
         <Core/>
         <Examples />
       </main>
