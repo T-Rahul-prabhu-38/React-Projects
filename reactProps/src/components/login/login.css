@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(#cfb3f3, #c59afa);
+  color: #e5d9f1;
+  min-height: 100vh;
+}
+
+#app {
+  margin: 2rem auto;
+  padding: 0.5rem 2rem;
+  max-width: 25rem;
+  text-align: center;
+  border-radius: 6px;
+  background: linear-gradient(#230736, #301247);
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+h1 {
+  letter-spacing: 0.1rem;
+  font-size: 1.25rem;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  color: #c7a0ee;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  text-align: left;
+  color: #9f80bf;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #493066;
+  background: #493664;
+  color: #e5d9f1;
+  font-size: 0.9rem;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: 1px solid #5812b9;
+  background: #5812b9;
+  color: #e5d9f1;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6c1fd6;
+}
