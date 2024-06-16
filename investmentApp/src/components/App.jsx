@@ -11,7 +11,7 @@ function App() {
     initialInvestment: 10000,
     annualInvestment: 1200,
     expectedReturn: 6,
-    Duration: 10,
+    duration: 10,
   });
 
 
@@ -19,7 +19,7 @@ function App() {
     setuserInput(prevUserInput => {
       return {
         ...prevUserInput,
-        [inputIdentifier]: newVal
+        [inputIdentifier]: +newVal
       };
     });
   }
