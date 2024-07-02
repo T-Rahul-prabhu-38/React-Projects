@@ -7,6 +7,12 @@ export default function Player() {
 
   function handleClick(){
     setusername(playerName.current.value);
+    playerName.current.value = '';
+  }
+
+  function handleClear(){
+    setusername('');
+    playerName.current.value = '';
   }
 
   return (
@@ -14,7 +20,9 @@ export default function Player() {
       <h2>Welcome {username??'...who?'} !</h2>
       <p>
         <input type="text" ref={playerName}/>
+        <br />
         <button onClick={handleClick}>Set Name</button>
+        <button onClick={handleClear}>clear</button>
       </p>
     </section>
   );
